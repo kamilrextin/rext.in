@@ -24,8 +24,8 @@ export default function Home() {
       className="min-h-screen text-gray-900 font-sans bg-cover bg-center bg-no-repeat transition-all duration-1000"
       style={{ backgroundImage: currentBackground }}
     >
-      <div className="min-h-screen bg-white bg-opacity-20">
-        <div className="max-w-2xl mx-auto px-6 py-16">
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="max-w-2xl mx-auto px-8 py-12 bg-white bg-opacity-90 rounded-2xl shadow-2xl backdrop-blur-sm">
         
         {/* Name/Title */}
         <h1 className="text-5xl font-bold mb-8 text-gray-900">
