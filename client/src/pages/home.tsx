@@ -3,6 +3,7 @@ import starryNightImage from "@assets/starry-night.png";
 import classicalPortraitImage from "@assets/classical-portrait.png";
 import leonardoSketchImage from "@assets/leonardo-sketch.png";
 import steampunkInventionsImage from "@assets/steampunk-inventions.png";
+import sunsetLandscapeImage from "@assets/sunset-landscape.png";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     `url(${classicalPortraitImage})`,
     `url(${leonardoSketchImage})`,
     `url(${steampunkInventionsImage})`,
+    `url(${sunsetLandscapeImage})`,
   ];
 
   useEffect(() => {
