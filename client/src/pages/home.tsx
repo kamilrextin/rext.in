@@ -1,6 +1,7 @@
 import bgImage from "@assets/bg.png";
 import starryNightImage from "@assets/starry-night.png";
 import classicalPortraitImage from "@assets/classical-portrait.png";
+import leonardoSketchImage from "@assets/leonardo-sketch.png";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
     `url(${bgImage})`,
     `url(${starryNightImage})`,
     `url(${classicalPortraitImage})`,
+    `url(${leonardoSketchImage})`,
   ];
 
   useEffect(() => {
