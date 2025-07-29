@@ -68,19 +68,24 @@ export default function Home() {
           
           <p>
             Photography on{' '}
-            <a href="#" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Flickr</a> /{' '}
-            <a href="#" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">DeviantArt</a>
+            <a href="https://www.google.com/search?q=flckir+kamil+rextin&sourceid=chrome&ie=UTF-8" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Flickr</a> /{' '}
+            <a href="https://www.deviantart.com/k3mll" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">DeviantArt</a>
           </p>
           
           <p>
             Work is on{' '}
-            <a href="#" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/kamilrextin" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">LinkedIn</a>
           </p>
           
           <p>
             Personal is on{' '}
-            <a href="#" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Twitter</a> & occasionally on{' '}
+            <a href="https://x.com/kamilrextin" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Twitter</a> & occasionally on{' '}
             <a href="#" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Threads</a>.
+          </p>
+          
+          <p>
+            Email:{' '}
+            <a href="mailto:kami.rextin@gmail.com" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">kami.rextin@gmail.com</a>
           </p>
         </div>
         
