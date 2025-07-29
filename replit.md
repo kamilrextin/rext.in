@@ -1,6 +1,6 @@
 # Overview
 
-This is a personal website/portfolio application for Kamil Ali Rextin (rext.in), built as a full-stack web application using React with TypeScript on the frontend and Express.js on the backend. The application serves as a digital hub showcasing social media links and professional profiles across various platforms including writing, creative work, and professional networks.
+This is a personal static website for Kamil Ali Rextin (rext.in), built as a clean, minimalist site using React with TypeScript. The website displays Kamil's exact bio text and includes links to his various social media platforms. Features a beautiful gradient background image with semi-transparent overlay for optimal text readability.
 
 # User Preferences
 
