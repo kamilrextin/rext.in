@@ -1,10 +1,32 @@
 import bgImage from "@assets/bg.png";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+  const [currentBackground, setCurrentBackground] = useState("");
+
+  const backgrounds = [
+    // Your uploaded gradient image
+    `url(${bgImage})`,
+    // CSS gradient variations that complement your image
+    "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%)",
+    "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+    "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+    "linear-gradient(135deg, #ff8a80 0%, #ffb74d 100%)",
+    "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+    "linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%)",
+  ];
+
+  useEffect(() => {
+    // Select random background on component mount
+    const randomIndex = Math.floor(Math.random() * backgrounds.length);
+    setCurrentBackground(backgrounds[randomIndex]);
+  }, []);
+
   return (
     <div 
-      className="min-h-screen text-gray-900 font-sans bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      className="min-h-screen text-gray-900 font-sans bg-cover bg-center bg-no-repeat transition-all duration-1000"
+      style={{ backgroundImage: currentBackground }}
     >
       <div className="min-h-screen bg-white bg-opacity-20">
         <div className="max-w-2xl mx-auto px-6 py-16">
