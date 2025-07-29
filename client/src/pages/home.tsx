@@ -1,13 +1,15 @@
 import bgImage from "@assets/bg.png";
+import starryNightImage from "@assets/starry-night.png";
 import { useState, useEffect } from "react";
 
 export default function Home() {
   const [currentBackground, setCurrentBackground] = useState("");
 
   const backgrounds = [
-    // Your uploaded gradient image
+    // Your uploaded images
     `url(${bgImage})`,
-    // CSS gradient variations that complement your image
+    `url(${starryNightImage})`,
+    // CSS gradient variations that complement your images
     "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
     "linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%)",
     "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
@@ -15,6 +17,9 @@ export default function Home() {
     "linear-gradient(135deg, #ff8a80 0%, #ffb74d 100%)",
     "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
     "linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%)",
+    // Dark gradients that complement the starry night
+    "linear-gradient(135deg, #1a1c3a 0%, #2d3561 50%, #4a5568 100%)",
+    "linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%)",
   ];
 
   useEffect(() => {
