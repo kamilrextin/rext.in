@@ -49,7 +49,9 @@ export default function Home() {
           </p>
           
           <p>
-            I currently run 42 Agency & dabble with other ideas on the internet.
+            I currently run{' '}
+            <a href="https://42agency.com" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">42 Agency</a>{' '}
+            & dabble with other ideas on the internet.
           </p>
         </div>
         
@@ -57,9 +59,9 @@ export default function Home() {
         <div className="space-y-4 text-lg text-white drop-shadow-md">
           <p>
             You can also find my writing on{' '}
-            <a href="#" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Substack</a>,{' '}
-            <a href="#" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Medium</a>, and{' '}
-            <a href="#" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Quora</a>.
+            <a href="https://42slash.com" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Substack</a>,{' '}
+            <a href="https://medium.com/@kamilrextin" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Medium</a>, and{' '}
+            <a href="https://www.quora.com/profile/Kamil-Ali-Rextin" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-100 hover:underline font-medium">Quora</a>.
           </p>
           
           <p>
