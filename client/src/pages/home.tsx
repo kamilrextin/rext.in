@@ -6,16 +6,16 @@ export default function Home() {
       className="min-h-screen text-gray-900 font-sans bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <div className="min-h-screen bg-white bg-opacity-90">
+      <div className="min-h-screen bg-white bg-opacity-20">
         <div className="max-w-2xl mx-auto px-6 py-16">
         
         {/* Name/Title */}
-        <h1 className="text-5xl font-bold mb-8 text-black">
+        <h1 className="text-5xl font-bold mb-8 text-gray-900">
           Kamil Ali Rextin
         </h1>
         
         {/* Main Bio */}
-        <div className="space-y-6 text-lg leading-relaxed mb-12">
+        <div className="space-y-6 text-lg leading-relaxed mb-12 text-gray-800">
           <p>
             I am Kamil Ali Rextin. Marketer & Techno Cautious Person.
           </p>
