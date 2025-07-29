@@ -1,7 +1,13 @@
+import bgImage from "@assets/bg.png";
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-gray-900 font-sans">
-      <div className="max-w-2xl mx-auto px-6 py-16">
+    <div 
+      className="min-h-screen text-gray-900 font-sans bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
+      <div className="min-h-screen bg-white bg-opacity-90">
+        <div className="max-w-2xl mx-auto px-6 py-16">
         
         {/* Name/Title */}
         <h1 className="text-5xl font-bold mb-8 text-black">
@@ -54,6 +60,7 @@ export default function Home() {
           </p>
         </div>
         
+        </div>
       </div>
     </div>
   );
