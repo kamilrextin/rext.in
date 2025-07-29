@@ -1,5 +1,6 @@
 import bgImage from "@assets/bg.png";
 import starryNightImage from "@assets/starry-night.png";
+import classicalPortraitImage from "@assets/classical-portrait.png";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     // Your uploaded images
     `url(${bgImage})`,
     `url(${starryNightImage})`,
+    `url(${classicalPortraitImage})`,
     // CSS gradient variations that complement your images
     "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
     "linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%)",
@@ -17,9 +19,12 @@ export default function Home() {
     "linear-gradient(135deg, #ff8a80 0%, #ffb74d 100%)",
     "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
     "linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%)",
-    // Dark gradients that complement the starry night
+    // Dark gradients that complement the starry night and classical art
     "linear-gradient(135deg, #1a1c3a 0%, #2d3561 50%, #4a5568 100%)",
     "linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%)",
+    // Warm classical art-inspired gradients
+    "linear-gradient(135deg, #8b4513 0%, #d2691e 50%, #f4a460 100%)",
+    "linear-gradient(135deg, #2f1b69 0%, #8b7355 50%, #d4af37 100%)",
   ];
 
   useEffect(() => {
